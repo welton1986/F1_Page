@@ -42,13 +42,13 @@ body {
 .banner {
     width:500px;
     height:260px;
-    background-image: url(/img/f1_3.jpg);
+    background-image: url(img/f1_3.jpg);
 }
 
 @media only screen and (max-width:500px){
     .banner{
         width:480px;
-        background-image: url(/img/logosansung.png);
+        background-image: url(img/logosansung.png);
     
     }
 }
@@ -91,7 +91,7 @@ div.equipe2{
 
 .mercedes {
     flex: 1;
-    background-image:url(/img/mercedesF11.png);
+    background-image:url(img/mercedesF11.png);
     margin: 10px;
     padding: 10px;
     border-radius: 10px;
@@ -106,7 +106,7 @@ div.equipe2{
 }
 @media only screen and (max-width:500px){
     .mercedes {
-        background-image: url(/mercedes/img/logo.mobile.jpg);
+        background-image: url(mercedes/img/logo.mobile.jpg);
         width: 45px;
         height: 45px;
     }
@@ -115,7 +115,7 @@ div.equipe2{
 
 .ferrari {
     flex: 1;
-    background-image: url(/img/ferrari11.png);
+    background-image: url(img/ferrari11.png);
     margin: 10px;
     padding: 10px;
     border-radius: 10px;
@@ -132,13 +132,13 @@ div.equipe2{
     .ferrari {
         width: 45px;
         height: 45px;
-        background-image: url(/ferrari/img/logomobile.jpg);
+        background-image: url(ferrari/img/logomobile.jpg);
     }
 }
 
 .redbull {
     flex: 1;
-    background-image: url(/img/redbullF111.jpg);
+    background-image: url(img/redbullF111.jpg);
     margin: 10px;
     padding: 10px;
     border-radius: 10px;
@@ -155,13 +155,13 @@ div.equipe2{
     .redbull {
         width: 45px;
         height: 45px;
-        background-image: url(/redbull/img/redmobile.jpg);
+        background-image: url(redbull/img/redmobile.jpg);
     }
 }
 
 .williams {
     flex: 1;
-    background-image: url(/img/williamsF111.jpg);
+    background-image: url(img/williamsF111.jpg);
     margin: 10px;
     padding: 10px;
     border-radius: 10px;
@@ -178,13 +178,13 @@ div.equipe2{
     .williams {
         width: 45px;
         height: 45px;
-        background-image: url(/williams/img/wmobile.jpg);
+        background-image: url(williams/img/wmobile.jpg);
     }
 }
 
 .alfaromeu {
     flex: 1;
-    background-image: url(/img/AlfaRomeoF1logo-201911.jpg);
+    background-image: url(img/AlfaRomeoF1logo-201911.jpg);
     margin: 10px;
     padding: 10px;
     border-radius: 10px;
@@ -201,13 +201,13 @@ div.equipe2{
     .alfaromeu {
         width: 45px;
         height: 45px;
-        background-image: url(/alfaromeu/img/alfamobile.jpg);
+        background-image: url(alfaromeu/img/alfamobile.jpg);
     }
 }
 
 .alphatauri {
     flex: 1;
-    background-image: url(/img/livestream-2020-alphatauri-f1-111.jpg);
+    background-image: url(img/livestream-2020-alphatauri-f1-111.jpg);
     margin: 10px;
     padding: 10px;
     border-radius: 10px;
@@ -224,14 +224,14 @@ div.equipe2{
     .alphatauri {
         width: 45px;
         height: 45px;
-        background-image: url(/alphatauri/img/alphamobile.png);
+        background-image: url(alphatauri/img/alphamobile.png);
     }
 }
 
 .alpine {
     flex: 1;
     background-color: white;
-    background-image: url(/img/Alpine_logo11.png);
+    background-image: url(img/Alpine_logo11.png);
     margin: 10px;
     padding: 10px;
     border-radius: 10px;
@@ -248,13 +248,13 @@ div.equipe2{
     .alpine {
         width: 45px;
         height: 45px;
-        background-image: url(/alpine/img/alpinemobile.png);
+        background-image: url(alpine/img/alpinemobile.png);
     }
 }
 
 .hass {
     flex: 1;
-    background-image: url(/img/hassF111.jpg);
+    background-image: url(img/hassF111.jpg);
     margin: 10px;
     padding: 10px;
     border-radius: 10px;
@@ -271,13 +271,13 @@ div.equipe2{
     .hass {
         width: 45px;
         height: 45px;
-        background-image: url(/hass/img/hassmobile.jpg);
+        background-image: url(hass/img/hassmobile.jpg);
     }
 }
 
 .astonmartim {
     flex: 1;
-    background-image: url(/img/astonMartim11.jpg);
+    background-image: url(img/astonMartim11.jpg);
     margin: 10px;
     padding: 10px;
     border-radius: 10px;
@@ -294,14 +294,14 @@ div.equipe2{
     .astonmartim {
         width: 45px;
         height: 45px;
-        background-image: url(/astonmartim/img/aston-martin-mobile.jpg);
+        background-image: url(astonmartim/img/aston-martin-mobile.jpg);
     }
 }
 
 .mclaren {
     flex: 1;
     background-color: white;
-    background-image: url(/img/Mclaren-f1-team-logo11.png);
+    background-image: url(img/Mclaren-f1-team-logo11.png);
     margin: 10px;
     padding: 10px;
     border-radius: 10px;
@@ -318,7 +318,7 @@ div.equipe2{
     .mclaren {
         width: 45px;
         height: 45px;
-        background-image: url(/mclaren/img/mcmobile.png);
+        background-image: url(mclaren/img/mcmobile.png);
     }
 }
 
@@ -404,14 +404,14 @@ h2 {
 }
 
 div.fangio{
-    background-image: url(/img/fanjo.jpg);
+    background-image: url(img/fanjo.jpg);
     width: 600px;
     height: 360px;
 }
 
 @media only screen and (max-width:500px){
      div.fangio{
-         background-image: url(/img/fanjo.mobile.jpg);
+         background-image: url(img/fanjo.mobile.jpg);
          width:350px ;
          height: 200px;
          margin: auto;
@@ -446,14 +446,14 @@ div.ano1960 {
 }
 
 div.ano1960{
-    background-image: url(/img/1960.jpg);
+    background-image: url(img/1960.jpg);
     width: 600px;
     height: 360px;
 }
 
 @media only screen and (max-width:500px){
      div.ano1960{
-         background-image: url(/img/1960.mobile.jpg);
+         background-image: url(img/1960.mobile.jpg);
          width:350px ;
          height: 200px;
          margin: auto;
@@ -488,14 +488,14 @@ div.ano1970 {
 }
 
 div.ano1970{
-    background-image: url(/img/niki-lauda.jpg);
+    background-image: url(img/niki-lauda.jpg);
     width: 600px;
     height: 360px;
 }
 
 @media only screen and (max-width:500px){
      div.ano1970{
-         background-image: url(/img/niki-lauda.mobile.jpg);
+         background-image: url(img/niki-lauda.mobile.jpg);
          width:350px ;
          height: 200px;
          margin: auto;
@@ -529,14 +529,14 @@ div.ano1980 {
 }
 
 div.ano1980{
-    background-image: url(/img/prost-senna-mclaren.jpg);
+    background-image: url(img/prost-senna-mclaren.jpg);
     width: 600px;
     height: 360px;
 }
 
 @media only screen and (max-width:500px){
      div.ano1980{
-         background-image: url(/img/prost-senna-mclaren.mobile.jpg);
+         background-image: url(img/prost-senna-mclaren.mobile.jpg);
          width:350px ;
          height: 200px;
          margin: auto;
@@ -570,14 +570,14 @@ div.ano1990 {
 }
 
 div.ano1990{
-    background-image: url(/img/hakkinen-mclaren.jpg);
+    background-image: url(img/hakkinen-mclaren.jpg);
     width: 600px;
     height: 360px;
 }
 
 @media only screen and (max-width:500px){
      div.ano1990{
-         background-image: url(/img/hakkinen-mclaren.mobile.jpg);
+         background-image: url(img/hakkinen-mclaren.mobile.jpg);
          width:350px ;
          height: 200px;
          margin: auto;
@@ -611,14 +611,14 @@ div.ano2000 {
 }
 
 div.ano2000{
-    background-image: url(/img/schumacher-ferrari.jpg);
+    background-image: url(img/schumacher-ferrari.jpg);
     width: 600px;
     height: 360px;
 }
 
 @media only screen and (max-width:500px){
      div.ano2000{
-         background-image: url(/img/schumacher-ferrari.mobile.jpg);
+         background-image: url(img/schumacher-ferrari.mobile.jpg);
          width:350px ;
          height: 200px;
          margin: auto;
@@ -652,14 +652,14 @@ div.atual {
 }
 
 div.atual{
-    background-image: url(/img/hamilton-mercedes.jpg);
+    background-image: url(img/hamilton-mercedes.jpg);
     width: 600px;
     height: 360px;
 }
 
 @media only screen and (max-width:500px){
      div.atual{
-         background-image: url(/img/hamilton-mercedes.mobile.jpg);
+         background-image: url(img/hamilton-mercedes.mobile.jpg);
          width:350px ;
          height: 200px;
          margin: auto;

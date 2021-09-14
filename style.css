@@ -1,6 +1,6 @@
 body {
     margin: 0;
-    background-image:url(/img/logoF1.png);
+    background-image:url(img/logoF1.png);
 }
 
 .clicar {
@@ -37,7 +37,7 @@ a {
 
 @media only screen and (max-width:500px) {
     body {
-        background-image: url(/img/logoF11.png);
+        background-image: url(img/logoF11.png);
     }
     .clicar {
         margin-top: 200px;
