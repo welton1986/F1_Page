@@ -1,0 +1,276 @@
+body {
+    margin: 0;
+    background-image: url(/mercedes/img/mercedes-preta-2020.jpeg);
+}
+
+.topo {
+    background-color: rgba(0, 0, 0, 0.8);
+}
+
+.banner {
+    background-image: url(/mercedes/img/bannerMercedes.jpg);
+    width: 360px;
+    height:180px;
+    margin-left: 100px;
+    
+}
+
+@media only screen and (max-width:500px){
+    .banner {
+    background-image: url(/mercedes/img/logo.mobile.png);
+    width:100px;
+    height:100px;
+    margin:auto;
+    }
+}
+
+h1.mercedes {
+    background-color: rgba(37, 94, 104, 0.6);
+    margin: auto;
+    margin-top: 60px;
+    padding: 10px;
+    color: white;
+    width: 450px;
+    text-align: center;
+    border-radius: 10px;
+}
+
+@media only screen and (max-width:500px){
+    h1.mercedes {
+        width:300px;
+        font-size: 20px;
+    }
+}
+
+.historia {
+    color: white;
+    background-color: rgba(0, 0, 0, 0.7);
+    font-size: 20px;
+    margin: 30px;
+    padding: 20px;
+    border-top-left-radius: 10px ;
+    border-top-right-radius: 10px;
+}
+
+h1.pilotosatuais {
+    background-color:rgba(0, 0, 0, 0.7);
+    height: 50;
+    width:250px ;
+    color: white;
+    text-align:center;
+    margin-left:900px;
+    border-radius: 5px;
+}
+
+@media only screen and (max-width:500px){
+    h1.pilotosatuais{
+    background-color:rgba(0, 0, 0, 0.7);
+    height: 50;
+    width:250px ;
+    color: white;
+    text-align:center;
+    margin:auto;
+    border-radius: 5px;
+    }
+}
+
+.pilotos {
+    display: flex;
+    width: 460px;
+    height: 350px;
+    margin-left:850px;
+}
+
+@media only screen and (max-width:500px){
+    .pilotos {
+    margin:auto;
+    }
+}
+.hamilton {
+    flex:1;
+    margin: 10px;
+    padding: 10px;
+    height: 300px;
+    background-image: url(/mercedes/img/Lewis.jpg);
+}
+
+.bottas {
+    flex:1;
+    margin: 10px;
+    padding: 10px;
+    height: 300px;
+    background-image: url(/mercedes/img/bottas.jpg);
+}
+
+.pilotoss {
+    display: flex;
+    width: 450px;
+    height:50px;
+    margin-left:890px;
+     
+}
+
+@media only screen and (max-width:500px){
+    .pilotoss {
+    margin: auto;
+    width: 400px;
+    
+    }
+}
+
+.piloto1 {
+    background-color: rgba(37, 94, 104, 0.8);;
+    width:180px;
+    height: 40px;
+    margin-top: 10px;
+    text-align: center;
+    border-radius: 10px;
+    margin-right:20px;
+    
+    
+}
+
+.piloto2 {
+    background-color: rgba(37, 94, 104, 0.8);
+    width:180px;
+    height: 40px;
+    margin-top: 10px;
+    text-align: center;
+    border-radius: 10px;
+    margin-right:20px;
+
+}
+
+a {
+    text-decoration: none;
+    padding: 20px;
+    padding-top: 0px;
+    color: black;
+    margin-top: 10px;
+    font-size: 18px;
+    
+}
+
+h1.campeoesmundiais {
+    background-color: rgba(0,0, 0, 0.7);
+    color: white;
+    margin-left: 50px;
+    width: 300px;
+    border-radius: 10px;
+    
+}
+
+@media only screen and (max-width:500px){
+    h1.campeoesmundiais{
+    background-color: rgba(0,0, 0, 0.7);
+    color: white;
+    margin-left: 50px;
+    width: 300px;
+    border-radius: 10px;
+    margin: auto;
+    margin-top:100px;
+    }
+}
+
+.campeoes {
+    display: flex;
+    flex-direction: row;
+    width:700px;
+    height: 350px;
+
+}
+
+@media only screen and (max-width:500px){
+.campeoes {
+    display: flex;
+    flex-direction:column;
+    width:240px;
+    height:800px;
+    margin: auto; 
+    }
+}
+
+.lewis {
+    flex:1;
+    margin: 20px;
+    padding: 10px;
+    height: 300px;
+    background-image: url(/mercedes/img/Lewis.jpg);
+}
+
+.juan {
+    flex: 1;
+    margin: 20px;
+    padding: 10px;
+    height: 300px;
+    background-image: url(/mercedes/img/Fangio.png);
+}
+
+.nico {
+    flex: 1;
+    margin: 20px;
+    padding: 10px;
+    height: 300px;
+    background-image: url(/mercedes/img/Nico.jpg);
+}
+
+.campeoes1 {
+    display: flex;
+    flex-direction: row;
+    width:700px;
+    height: 100px;
+}
+
+@media only screen and (max-width:500px){
+    .campeoes1 {
+        display: flex;
+        flex-direction:column;
+        width:250px;
+        height:300px; 
+        margin: auto; 
+    }
+}
+
+
+.numero {
+    flex: 1;
+    background-color: white;
+    padding: 5px;
+    flex-direction: row;
+    margin: 20px;
+    border-radius: 5px;
+    font-family: Arial, Helvetica, sans-serif;
+
+}
+
+
+.numero1 {
+    flex: 1;
+    background-color: white;
+    padding: 5px;
+    flex-direction: row;
+    margin: 20px;
+    border-radius: 5px;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+.numero2 {
+    flex: 1;
+    background-color: white;
+    padding: 5px;
+    flex-direction: row;
+    margin: 20px;
+    border-radius: 5px;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+span {
+    color:red;
+}
+
+footer {
+    color: white;
+    font-size: 15px;
+    text-align: center;
+    margin-top: 50px;
+}

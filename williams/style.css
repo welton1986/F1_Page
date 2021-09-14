@@ -1,0 +1,320 @@
+body {
+    margin: 0;
+    background-image: url(/williams/img/Williams-2021carro.jpg);
+}
+
+.topo {
+    background-color: rgba(176,224,230, 0.7);
+}
+
+.banner {
+    background-image: url(/williams/img/WilliamsBanner.jpg);
+    width: 220px;
+    height:180px;
+    margin-left: 150px;
+    
+}
+
+h1.williams {
+    background-color: rgba(176,224,230, 0.9);
+    margin: auto;
+    margin-top: 60px;
+    padding: 10px;
+    color: black;
+    width: 330px;
+    text-align: center;
+    border-radius: 10px;
+}
+
+h3 {
+    color:#B0E0E6;
+}
+
+h4 {
+    color: #B0E0E6;
+}
+
+.historia {
+    color: white;
+    background-color: rgba(0, 0, 0, 0.7);
+    font-size: 20px;
+    margin: 30px;
+    padding: 20px;
+    border-top-left-radius: 10px ;
+    border-top-right-radius: 10px;
+}
+
+h1.pilotosatuais {
+    background-color:rgba(176,224,230, 0.7);
+    height: 50;
+    width:250px ;
+    color: black;
+    text-align:center;
+    margin-left:950px;
+    border-radius: 5px;
+}
+
+@media only  screen and  (max-width:500px){
+    h1.pilotosatuais {
+        margin: auto;
+    }
+}
+
+.pilotos {
+    display: flex;
+    width: 460px;
+    height: 350px;
+    margin-left:850px;
+}
+
+@media only screen and (max-width:500px){
+    .pilotos{
+        margin: auto;
+    }
+}
+.latifi {
+    flex:1;
+    margin: 10px;
+    padding: 10px;
+    height: 300px;
+    background-image: url(/williams/img/latiffi.jpg);
+}
+
+.russell {
+    flex:1;
+    margin: 10px;
+    padding: 10px;
+    height: 300px;
+    background-image: url(/williams/img/russell.jpg);
+}
+
+.pilotoss {
+    display: flex;
+    width: 460px;
+    height:100px;
+    margin-left:860px;
+     
+}
+
+@media only screen and (max-width:500px){
+    .pilotoss {
+        margin: auto;
+    }
+}
+
+.piloto1 {
+    background-color: rgba(176,224,230, 0.7);;
+    width:200px;
+    height: 40px;
+    margin: 10px;
+    text-align: center;
+    border-radius: 10px;
+    
+}
+.piloto2 {
+    background-color: rgba(176,224,230, 0.9);
+    width:200px;
+    height: 40px;
+    margin: 10px;
+    text-align: center;
+    border-radius: 10px;
+
+}
+
+a {
+    text-decoration: none;
+    padding: 20px;
+    padding-top: 0px;
+    color: black;
+    margin-top: 10px;
+    font-size: 18px;
+    
+}
+
+h1.campeoesmundiais {
+    background-color: rgba(176,224,230, 0.7);
+    color: black;
+    margin-left: 50px;
+    width: 320px;
+    border-radius: 10px;
+    text-align: center;
+    
+}
+
+@media only screen and (max-width:500px){
+    h1.campeoesmundiais{
+        margin: auto;
+    }
+}
+
+.campeoes {
+    display: flex;
+    flex-direction: row;
+    width:100%;
+    height: 350px;
+
+}
+
+@media only screen and (max-width:500px){
+    .campeoes {
+        display:flex;
+        flex-direction: column;
+        margin: auto;
+        width: 250px;
+        height:1500px;
+    }
+}
+
+.alanjones {
+    flex:1;
+    margin: 20px;
+    padding: 10px;
+    height: 300px;
+    background-image: url(/williams/img/alanjones.jpg);
+}
+
+.kekerosberg {
+    flex: 1;
+    margin: 20px;
+    padding: 10px;
+    height: 300px;
+    background-image: url(/williams/img/Keke\ Rosberg.jpg);
+}
+
+.nelsonpiquet {
+    flex: 1;
+    margin: 20px;
+    padding: 10px;
+    height: 300px;
+    background-image: url(/williams/img/Nelson\ Piquet.jpg);
+}
+.nigelmansell {
+    flex: 1;
+    margin: 20px;
+    padding: 10px;
+    height: 300px;
+    background-image: url(/williams/img/Nigel-Mansell.jpg);
+}
+.alainprost {
+    flex: 1;
+    margin: 20px;
+    padding: 10px;
+    height: 300px;
+    background-image: url(/williams/img/Alain\ Prost.jpg);
+}
+.damonhill {
+    flex: 1;
+    margin: 20px;
+    padding: 10px;
+    height: 300px;
+    background-image: url(/williams/img/Damon\ Hill.jpg);
+}
+.jacquesvilleneuve {
+    flex: 1;
+    margin: 20px;
+    padding: 10px;
+    height: 300px;
+    background-image: url(/williams/img/Jacques\ Villeneuve.jpg);
+}
+
+.campeoes1 {
+    display: flex;
+    flex-direction: row;
+    width:100%;
+    height: 120px;
+}
+
+@media only screen and (max-width:500px){
+    .campeoes1 {
+        display: flex;
+        flex-direction: column;
+        width: 250px;
+        height: 600px;
+        margin: auto;
+    }
+}
+
+.numero {
+    flex: 1;
+    color: white;
+    background-color: black;
+    padding: 5px;
+    flex-direction: row;
+    margin: 20px;
+    border-radius: 5px;
+    font-family: Arial, Helvetica, sans-serif;
+
+}
+
+.numero1 {
+    flex: 1;
+    color: white;
+    background-color: black;
+    padding: 5px;
+    flex-direction: row;
+    margin: 20px;
+    border-radius: 5px;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+.numero2 {
+    flex: 1;
+    color: white;
+    background-color: black;
+    padding: 5px;
+    flex-direction: row;
+    margin: 20px;
+    border-radius: 5px;
+    font-family: Arial, Helvetica, sans-serif;
+}
+.numero3 {
+    flex: 1;
+    color: white;
+    background-color: black;
+    padding: 5px;
+    flex-direction: row;
+    margin: 20px;
+    border-radius: 5px;
+    font-family: Arial, Helvetica, sans-serif;
+}
+.numero4 {
+    flex: 1;
+    color: white;
+    background-color: black;
+    padding: 5px;
+    flex-direction: row;
+    margin: 20px;
+    border-radius: 5px;
+    font-family: Arial, Helvetica, sans-serif;
+}
+.numero5 {
+    flex: 1;
+    color: white;
+    background-color: black;
+    padding: 5px;
+    flex-direction: row;
+    margin: 20px;
+    border-radius: 5px;
+    font-family: Arial, Helvetica, sans-serif;
+}
+.numero6 {
+    flex: 1;
+    color: white;
+    background-color: black;
+    padding: 5px;
+    flex-direction: row;
+    margin: 20px;
+    border-radius: 5px;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+span {
+    color:#B0E0E6;
+}
+
+footer {
+    color: white;
+    font-size: 15px;
+    text-align: center;
+    margin-top: 50px;
+}

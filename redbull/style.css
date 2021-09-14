@@ -1,0 +1,228 @@
+body {
+    margin: 0;
+    background-image: url(/redbull/img/carroRedBull.jpg);
+}
+
+.topo {
+    background-color: rgba(0, 0,128 , 0.7);
+}
+
+.banner {
+    background-image: url(/redbull/img/Red_Bull_Racing_logo.png);
+    width: 280px;
+    height:170px;
+    margin-left: 100px;
+    
+}
+
+@media only screen and (max-width:500px){
+    .banner {
+        background-image: url(/redbull/img/bannermobile.jpg);
+        width: 190px;
+        margin: auto;
+    }
+}
+
+h1.redbull {
+    background-color: rgba(0, 0,128 , 0.7);
+    margin: auto;
+    margin-top: 60px;
+    padding: 10px;
+    color: white;
+    width:300px;
+    text-align: center;
+    border-radius: 10px;
+}
+
+.historia {
+    color: white;
+    background-color: rgba(0, 0, 0, 0.7);
+    font-size: 20px;
+    margin: 30px;
+    padding: 20px;
+    border-top-left-radius: 10px ;
+    border-top-right-radius: 10px;
+}
+
+h1.pilotosatuais {
+    background-color:rgba(0, 0,128 , 0.7);
+    height: 50;
+    width:250px ;
+    color: white;
+    text-align:center;
+    margin-left:950px;
+    border-radius: 5px;
+}
+
+@media only screen and (max-width:500px){
+    h1.pilotosatuais {
+        margin:auto;
+    }
+}
+
+.pilotos {
+    display: flex;
+    width: 460px;
+    height: 350px;
+    margin-left:850px;
+}
+
+@media only screen and (max-width:500px){
+    .pilotos {
+        margin: auto;
+    }
+}
+.sergio {
+    flex:1;
+    margin: 10px;
+    padding: 10px;
+    height: 300px;
+    background-image: url(/redbull/img/sergio-perez.jpg);
+}
+
+.max {
+    flex:1;
+    margin: 10px;
+    padding: 10px;
+    height: 300px;
+    background-image: url(/redbull/img/max.jpg);
+}
+
+.pilotoss {
+    display: flex;
+    width: 450px;
+    height:100px;
+    margin-left:860px;
+     
+}
+
+@media only screen and (max-width:500px){
+    .pilotoss {
+        margin: auto;
+    }
+}
+
+.piloto1 {
+    background-color: rgba(0, 0,128 , 0.7);;
+    width:200px;
+    height: 40px;
+    margin: 10px;
+    text-align: center;
+    border-radius: 10px;
+    
+}
+.piloto2 {
+    background-color: rgba(0, 0,128 , 0.7);
+    width:200px;
+    height: 40px;
+    margin: 10px;
+    text-align: center;
+    border-radius: 10px;
+
+}
+
+a {
+    text-decoration: none;
+    padding: 20px;
+    padding-top: 0px;
+    color: white;
+    margin-top: 10px;
+    font-size: 18px;
+    
+}
+
+h1.campeoesmundiais {
+    background-color: rgba(0, 0,128 , 0.7);
+    color: white;
+    margin-left: 50px;
+    width: 200px;
+    border-radius: 10px;
+    text-align: center;
+    
+}
+
+@media only screen and (max-width:500px){
+    h1.campeoesmundiais {
+        margin: auto;
+        width: 300px;
+    }
+} 
+
+.campeoes {
+    display: flex;
+    flex-direction: row;
+    width:250px;
+    height: 350px;
+
+}
+
+@media only screen and (max-width:500px){
+    .campeoes {
+        margin:auto;
+        margin-top: 50px;
+        
+    }
+}
+
+.vettel {
+    flex:1;
+    margin-left: 50px;
+    padding: 10px;
+    height: 300px;
+    background-image: url(/redbull/img/sebastian-vettel-.jpg);
+}
+
+@media only screen and (max-width:500px){
+    .vettel {
+        margin-left:0px;
+    }
+}
+
+.campeoes1 {
+    display: flex;
+    flex-direction: row;
+    width:250px;
+    height:90px;
+}
+
+@media only screen and (max-width:500px){
+    .campeoes1 {
+        margin: auto;
+        height: 70px;
+    }
+}
+
+.numero {
+    flex: 1;
+    background-color: white;
+    padding: 5px;
+    flex-direction: row;
+    margin-left: 40px;
+    border-radius: 5px;
+    font-family: Arial, Helvetica, sans-serif;
+
+}
+
+@media only screen and (max-width:500px){
+    .numero {
+        margin-left: 0px;
+    }
+}
+
+span {
+    color:rgb(54, 133, 179);
+
+}
+
+footer {
+    color: black;
+    font-size: 15px;
+    text-align: center;
+    margin-top: 50px;
+}
+
+@media only screen and (max-width:500px){
+    footer {
+        color:white;
+    }
+}

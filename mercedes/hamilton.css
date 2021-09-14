@@ -1,0 +1,29 @@
+body {
+    margin: 0;
+    background-image: url(/mercedes/img/lewis2.jpg);
+}
+.titulo {
+    background-color: rgba(255,255,255, 0.5);
+    width: 350px;
+    margin: auto;
+    border-radius: 5px;
+}
+
+ h1 {
+     text-align: center;
+     font-size: 40px;
+     margin-bottom: 50px;
+ }
+
+ p {
+     text-align: center;
+     font-size: 20px;
+     color: white;
+ }
+
+ .containner {
+     background-color:rgba(0, 0, 0,0.8);
+     width: 1200px;
+     margin: auto;
+     padding: 20px;
+ }

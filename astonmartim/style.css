@@ -1,0 +1,148 @@
+body {
+    margin: 0;
+    background-image: url(/astonmartim/img/carro.jpg);
+}
+
+.topo {
+    background-color: rgba(0,128,0, 0.7);
+}
+
+.banner {
+    background-image: url(/astonmartim/img/aston_martin_logo.png);
+    width: 370px;
+    height:180px;
+    margin-left: 100px;
+    
+}
+
+@media only screen and (max-width:500px){
+    .banner {
+        margin: auto;
+
+    }
+}
+h1.astonmartin {
+    background-color: rgba(0,0, 0, 0.7);
+    margin: auto;
+    margin-top: 60px;
+    padding: 10px;
+    color: white;
+    width: 450px;
+    text-align: center;
+    border-radius: 10px;
+}
+
+h3 {
+    color: #006400;
+}
+h4 {
+    color: #006400;
+}
+
+.historia {
+    color: white;
+    background-color: rgba(0, 0, 0, 0.7);
+    font-size: 20px;
+    margin: 30px;
+    padding: 20px;
+    border-top-left-radius: 10px ;
+    border-top-right-radius: 10px;
+}
+
+h1.pilotosatuais {
+    background-color:rgba(0,128,0, 0.7);
+    height: 50;
+    width:250px ;
+    color: white;
+    text-align:center;
+    margin-left:950px;
+    border-radius: 5px;
+}
+
+@media only screen and (max-width:500px){
+    h1.pilotosatuais{
+        margin: auto;
+        margin-bottom: 20px;
+    }
+}
+
+.pilotos {
+    display: flex;
+    width: 460px;
+    height: 350px;
+    margin-left:850px;
+}
+
+@media only screen and (max-width:500px){
+    .pilotos {
+        margin: auto;
+    }
+}
+.vettel {
+    flex:1;
+    margin: 10px;
+    padding: 10px;
+    height: 300px;
+    background-image: url(/astonmartim/img/vettel-aston-martin.jpeg);
+}
+
+.stroll {
+    flex:1;
+    margin: 10px;
+    padding: 10px;
+    height: 300px;
+    background-image: url(/astonmartim/img/stroll.jpg);
+}
+
+.pilotoss {
+    display: flex;
+    width: 460px;
+    height:100px;
+    margin-left:860px;
+     
+}
+
+@media only screen and (max-width:500px){
+    .pilotoss{
+        margin: auto;
+        width:400px;
+    }
+}
+
+.piloto1 {
+    background-color: rgba(0,128,0, 0.8);
+    width:200px;
+    height: 40px;
+    margin: 10px;
+    text-align: center;
+    border-radius: 10px;
+    
+}
+.piloto2 {
+    background-color: rgba(0,128,0, 0.8);
+    width:200px;
+    height: 40px;
+    margin: 10px;
+    text-align: center;
+    border-radius: 10px;
+
+}
+
+a {
+    text-decoration: none;
+    padding: 20px;
+    padding-top: 0px;
+    color: black;
+    margin-top: 10px;
+    font-size: 18px;
+    
+}
+
+
+
+footer {
+    color: white;
+    font-size: 15px;
+    text-align: center;
+    margin-top: 50px;
+}
