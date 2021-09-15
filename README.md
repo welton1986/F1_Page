@@ -13,6 +13,6 @@ O Projeto foi desenvolvido utilizando as seguintes tecnologias.
 - Html
 - Css
 
-- [Clique para acessar a pagina]( https://welton1986.github.io/Validador_Formulario/)
+- [Clique para acessar a pagina](  https://welton1986.github.io/F1_Page/)
 
  
